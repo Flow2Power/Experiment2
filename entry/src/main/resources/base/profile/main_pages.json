@@ -1,0 +1,12 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/Learn1",
+    "pages/Review1",
+    "pages/Stats",
+    "pages/Spelling",
+    "pages/Dictation",
+    "pages/Translation",
+    "pages/Splash"
+  ]
+}
