@@ -1,8 +1,8 @@
 {
   "src": [
     "pages/Index",
-    "pages/Learn1",
-    "pages/Review1",
+    "pages/Learn",
+    "pages/Review",
     "pages/Stats",
     "pages/Spelling",
     "pages/Dictation",
