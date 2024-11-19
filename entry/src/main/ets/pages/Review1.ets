@@ -6,7 +6,7 @@ import { DataPersistence } from '../Model/DataPersistence'
 
 @Entry
 @Component
-struct Review1 {
+struct Review {
   WebController: webview.WebviewController = new webview.WebviewController();
   @State Opacity: number=0
   @State WordId:number = 0

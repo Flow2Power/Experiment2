@@ -6,7 +6,7 @@ import { DataPersistence } from '../Model/DataPersistence'
 
 @Entry
 @Component
-struct Learn1 {
+struct Learn {
   WebController: webview.WebviewController = new webview.WebviewController();
   @State WordId:number = 0
   @State IsActive:boolean = false
