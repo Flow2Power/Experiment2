@@ -25,6 +25,7 @@ struct Splash {
     .height('100%')
     .backgroundImage($r('app.media.MyStartIcon2'))
     .backgroundImageSize(ImageSize.Cover)
+    .backgroundImagePosition(Alignment.Center)
     .alignItems(HorizontalAlign.Center)
     .justifyContent(FlexAlign.End)
   }

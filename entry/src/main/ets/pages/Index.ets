@@ -65,7 +65,7 @@ struct Index {
         .alignItems(HorizontalAlign.Start)
         .onClick(()=>{
           router.pushUrl({
-            url: 'pages/Learn1'
+            url: 'pages/Learn'
           })
           console.log("模拟器Learn1 Clicked")
         })
@@ -96,7 +96,7 @@ struct Index {
           }
           else{
             router.pushUrl({
-              url: 'pages/Review1'
+              url: 'pages/Review'
             })
           }
           console.log("模拟器Review1 Clicked")
@@ -158,6 +158,7 @@ struct Index {
     .height('100%')
     .backgroundImage($r('app.media.Background1'))
     .backgroundImageSize(ImageSize.Cover)
+    .backgroundImagePosition(Alignment.Center)
     .alignItems(HorizontalAlign.Center)
     .justifyContent(FlexAlign.End)
     .gesture(SwipeGesture({direction: SwipeDirection.Horizontal})
